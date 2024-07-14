@@ -1,0 +1,7 @@
+dotnet ef migrations add [MigrationName] --project user-info [optional:--context DataContext]
+
+dotnet ef database update --project user-info [optional:--context DataContext]
+
+dotnet ef database update [20240709091834_InitialMigration] --project user-info [optional:--context DataContext]
+
+dotnet ef migrations remove --project user-info [optional:--context DataContext]
